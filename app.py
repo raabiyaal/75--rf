@@ -58,7 +58,7 @@ for label, y_val in lines.items():
 # Layout
 fig.update_layout(
     title=dict(
-        text=None,  # No heading
+        text='Estimates of the Credit Curve Spread: 75% LTV Mortgage Loans <br> Less the Riskless Rate for the Years 1996 through 1Q 2025',
         x=0.5,
         xanchor='center'
     ),
