@@ -47,7 +47,7 @@ fig.add_hline(
 
 fig.update_layout(
     yaxis_title=r'Estimated Annual Interest Expense (k<sub>d</sub>)',
-    yaxis=dict(range=[0, 0.1], tickformat=".0%", dtick=0.01),
+    yaxis=dict(range=[0, 0.12], tickformat=".0%", dtick=0.01),
     legend=dict(
         font=dict(size=12),
         bgcolor='rgba(255,255,255,0.8)',
