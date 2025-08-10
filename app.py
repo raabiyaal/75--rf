@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import os
 
 # Load data inside the app file
-file_path = r"Data 75%-25%.xlsx"
+file_path = r"Data 75%-rf.xlsx"
 df = pd.read_excel(file_path)
 df['Period'] = pd.to_datetime(df['Period'])
 
@@ -18,7 +18,7 @@ fig.add_trace(go.Scatter(
     y=df['Spread'],
     mode='lines',
     line=dict(color='blue', width=2),
-    name='Spot Spread: 75% – 25%',
+    name='Spread: 75% – Rf',
     hovertemplate='%{x|%b %d, %Y} — %{y:.1%}<extra></extra>'
 ))
 
